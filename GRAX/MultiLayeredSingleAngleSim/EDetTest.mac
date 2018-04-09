@@ -1,0 +1,20 @@
+/gun/particle e-
+/gun/energy 1 MeV
+
+/gun/direction .5 .5 0
+/run/beamOn 100
+
+/gun/direction .4 .6 0
+/run/beamOn 100
+
+/gun/direction .3 .7 0
+/run/beamOn 100
+
+/gun/direction .2 .8 0
+/run/beamOn 100
+
+/gun/direction .1 .9 0
+/run/beamOn 100
+
+/gun/direction 0 1 0
+/run/beamOn 100

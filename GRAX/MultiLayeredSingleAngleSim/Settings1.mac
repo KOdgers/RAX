@@ -1,0 +1,19 @@
+/vis/viewer/set/style s
+/vis/viewer/zoom .5
+/vis/geometry/set/colour Case 1 .8 0 .2 .5
+/vis/geometry/set/colour Target 1 0 .2 .8 1
+
+/vis/viewer/set/viewpointThetaPhi 0 0
+
+/control/verbose 2
+/run/verbose 1
+#
+/gun/particle ion
+# Use Caesium 137 because it only creates beta and gamma, Physics List not tuned for Alpha Yet
+/gun/ion 55 137
+#
+/rdecay01/fullChain true
+#
+/tracking/verbose 2
+/run/beamOn 100
+
